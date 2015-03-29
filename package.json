@@ -1,0 +1,43 @@
+{
+  "name": "dir2text",
+  "version": "0.1.0",
+  "description": "export directory structure to text",
+  "author": "knightli@foxmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knightli/dir2text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knightli/dir2text/issues"
+  },
+  "main": "lib/index.js",
+  "bin": {
+    "dir2text": "bin/dir2text"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "hidefile": "^0.2.0",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.4",
+    "gulp-jshint-file-reporter": "0.0.1",
+    "gulp-jshint-html-reporter": "^0.1.2",
+    "jest-cli": "^0.4.0",
+    "jshint-html-reporter": "^0.2.3",
+    "jshint-stylish": "^1.0.1",
+    "lodash": "^3.5.0"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ]
+  },
+  "license": "MIT"
+}

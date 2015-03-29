@@ -1,0 +1,11 @@
+{
+  "a": {
+    "b": {
+      "c": {
+        "d": {"d1.txt": null}
+      },
+      "c1.txt": null
+    },
+    "a1.txt": null
+  }
+}

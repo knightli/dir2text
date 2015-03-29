@@ -1,0 +1,44 @@
+{
+  "express-boilerplate": {
+    "Cakefile": null,
+    "Gruntfile.coffee": null,
+    "README.md": null,
+    "app": {
+      "index.js": null
+    },
+    "app.coffee": null,
+    "bower.json": null,
+    "config": {},
+    "css": {},
+    "etc": {},
+    "node_modules": {},
+    "nodemon.json": null,
+    "package.json": null,
+    "public": {},
+    "vendor": {},
+    "views": {}
+  },
+  "express4": {
+    "bin": {},
+    "node_modules": {},
+    "package.json": null
+  },
+  "213.coffee": null,
+  "arg-test.js": null,
+  "args.js": null,
+  "colour.js": null,
+  "crash.js": null,
+  "die-test.js": null,
+  "die.js": null,
+  "env-test.js": null,
+  "nodemon-258.json": null,
+  "nodemon-jsbin.json": null,
+  "nodemon.json": null,
+  "npm-debug.log": null,
+  "readline.js": null,
+  "readline2.js": null,
+  "readline3.js": null,
+  "test-rules.js": null,
+  "test.js": null,
+  "watch-single.json": null
+}
