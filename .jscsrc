@@ -20,7 +20,6 @@
     "disallowKeywords": [ "with" ],
     "disallowSpaceAfterPrefixUnaryOperators": [ "!" , "++", "--", "+", "-", "~"],
     "disallowSpaceBeforePostfixUnaryOperators": ["++", "--", ","],
-    "disallowMultipleLineBreaks": true,
     "disallowKeywordsOnNewLine": ["else"],
     "safeContextKeyword": "self",
     "excludeFiles": []
