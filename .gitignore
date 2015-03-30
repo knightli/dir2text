@@ -1,6 +1,7 @@
 # --------- private ---------
 
 # User config
+*.ignore.*
 
 # Compiled
 
@@ -15,7 +16,6 @@ logs
 *.log
 npm-debug.log
 nohup.out
-jshint-output.html
 
 # Runtime data
 pids
