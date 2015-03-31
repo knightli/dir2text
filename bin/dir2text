@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+process.bin = process.title = 'dir2text';
+
+var dir2text = require('../lib/index.js'),
+  cli = require('../lib/util/cli');
+
+var argv = cli.argv;
+
+var options = cli.read({}, argv);
+
+dir2text(options, function (error, text) {
+  if (error) {
+    console.log(error);
+    process.exit(1);
+  }
+  if(typeof text == 'string'){
+    console.log(text);
+  } else if (typeof text == 'object' && text !== null) {
+    console.log(JSON.stringify(text));
+  }
+  
+  process.exit(0);
+});
